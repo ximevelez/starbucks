@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Banana";
+    src: url("../fuente/Banana.ttf");
+    font-style: normal;
+}
+
+.logo{
+    height: 50px;
+    
+}
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.btn-relleno{
+    background: rgb(7, 145, 7); 
+   color: white;
+   padding: 1rem 2rem;
+   border: 1px;
+}
+.inicio header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    
+}
+.inicio .menu {
+    display: flex;
+    gap: 2rem;
+}
+.inicio .menu a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(7, 145, 7) !important;
+}
+
+/* .img-fondo{
+    height: 100hv;
+} */
+
+.img-fondo{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.centrado{
+    font-family: "Banana";
+    font-size: 90px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button{
+    cursor:pointer;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(4, 85, 4); 
+   color: white;
+   padding: 1rem 2rem;
+   border: 1px;
+}
